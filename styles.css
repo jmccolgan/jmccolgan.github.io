@@ -1,0 +1,144 @@
+html {
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Space Mono', monospace;
+
+}
+
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin: 1rem 1rem 0rem 1rem;
+    position: sticky;
+    top:0px;
+    background-color: rgba(0, 0, 0, 0.633);
+}
+.logo img {
+    height:5rem;
+    
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav nav li{
+    display: flex;
+    margin: 0rem 1.5rem 0rem 1.5rem;
+    font-size: 1.4rem;
+    
+}
+
+.banner {
+
+    background-image: url("./imgs/lawn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50rem;
+    border:1px solid white;
+
+    margin: 1rem 1.5rem 1rem 1.5rem;
+
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 25rem;
+}
+
+.bannerText {
+    /* color:black;
+    background-color: rgba(255, 255, 255, 0.811); */
+
+    background-color: rgba(0, 0, 0, 0.633);
+    width: 100%;
+    text-align: center;
+    margin: 0rem;
+}
+
+.bannerText h1, h2{
+    
+    opacity: 1;
+}
+
+.about {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:1rem 3rem 1rem 3rem;
+}
+
+.services {
+    width:100%;
+    text-align: center;
+    }
+
+    .serviceImgs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:4rem;
+        
+            
+        
+    }
+
+    .serviceImgs img {
+        width:20rem;
+        height:20rem;
+        object-fit:cover;
+        border-color:1px solid white; 
+        
+    }
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    /* border:1px solid blue; */
+}
+
+.contactImgContainer {
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-content: center;
+    
+    /* border:1px solid red; */
+    
+    
+}
+
+.contactImgContainer img {
+    width:10rem;
+    height:10rem;
+    
+    /* border: 1px solid teal; */
+
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
