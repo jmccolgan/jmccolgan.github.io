@@ -12,6 +12,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
     border-bottom: 1px solid white;
     margin: 1rem 1rem 0rem 1rem;
     position: sticky;
@@ -22,15 +23,27 @@ html {
     height:5rem;
     
 }
+
+nav{
+
+}
 .nav ul{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .nav nav li{
     display: flex;
-    margin: 0rem 1.5rem 0rem 1.5rem;
-    font-size: 1.4rem;
     
+    margin: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.nav nav li a{
+
+    font-size: 1.4rem;
+    color:white;
 }
 
 .banner {
