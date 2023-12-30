@@ -91,6 +91,8 @@ nav{
 
 .about h2, h4 {
     margin:1rem;
+    display:flex;
+    justify-content: center;
 }
 
 .services {
@@ -162,3 +164,9 @@ nav{
     justify-content: center;
     align-items: center; 
 }
+
+/* @media only screen and (max-width:420px){
+    h1{
+        /* color:transparent; */
+    }
+} */
