@@ -4,7 +4,7 @@ html {
     font-size: 16px;
     font-family: 'Lato', sans-serif;
     font-family: 'Space Mono', monospace;
-    scroll-padding-top: 150px;
+    scroll-padding-top: 110px;
 }
 
 body{
@@ -13,8 +13,10 @@ body{
     justify-content: center;
     flex-direction: column;
     flex-shrink: 1;
+    
 }
 .header{
+    
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +27,7 @@ body{
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 0, 0.633);
-    width:95%
+    
 }
 .logo img {
     height:5rem;
@@ -42,10 +44,9 @@ flex-shrink: 1; */
 
 .nav ul{
     display: flex;
-    /* flex-shrink: 1; */
-    flex-wrap: no-wrap;
-    align-items: center;
-    justify-content: center;
+    /* flex-wrap: no-wrap; */
+    margin: .5rem 0rem .5rem 0rem;
+    
 }
 
 .nav nav li{
@@ -54,12 +55,15 @@ flex-shrink: 1; */
     align-items: center;
     justify-content: center;
     margin: 0rem 1.5rem 0rem 1.5rem;
+    
 }
 
 .nav nav li a{
+    display: flex;
     text-align: center;
     font-size: 1.4rem;
     color:white;
+    min-width: 0;
     
 }
 
