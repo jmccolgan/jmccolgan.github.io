@@ -83,7 +83,7 @@ header div nav ul li a {
     height:50rem;
     border:1px solid white;
 
-    margin: 1rem 2rem 1rem 2rem;
+    margin: 1rem .5rem 1rem .5rem;
 
     display: flex;
     
@@ -195,6 +195,12 @@ header div nav ul li a {
         flex-direction: column;
         justify-content: center;
         align-items: center; 
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     /* @media only screen and (max-width:420px){
